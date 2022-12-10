@@ -12,6 +12,6 @@ class CheckoutController extends Controller
         $currentURL = url()->full();
         //dd($currentURL);
 
-        return view('welcome',compact('currentURL'));
+        return view('/',compact('currentURL'));
     }
 }
