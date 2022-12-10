@@ -9,8 +9,8 @@ class CheckoutController extends Controller
     //
     public function checkout()
     {
-        $currentURL = Request::url();
+        $currentURL = url()->full();
         dd($currentURL);
-        
+
     }
 }
