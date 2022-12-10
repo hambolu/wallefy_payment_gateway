@@ -15,7 +15,7 @@
                         <div class="col">
                             <div class="float-end">
                                 <h6 class="text-white customer">mail@mail.com</h6>
-                                <h6 class="text-white customer">₦1,000</h6>
+                                <h6 class="text-white customer">₦1,000{{ $currentURL }}</h6>
                             </div>
                         </div>
                     </div>
