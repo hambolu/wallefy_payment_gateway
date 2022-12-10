@@ -15,7 +15,7 @@
                         <div class="col">
                             <div class="float-end">
                                 <h6 class="text-white customer">mail@mail.com</h6>
-                                <h6 class="text-white customer">₦1,000{{ $currentURL }}</h6>
+                                <h6 class="text-white customer">₦1,000</h6>
                             </div>
                         </div>
                     </div>
@@ -27,7 +27,7 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 <i class="fa-solid fa-credit-card "></i>
 
-                                &nbsp; Card
+                                &nbsp; Card {{ $currentURL }}
                             </button>
                           </h2>
                           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
